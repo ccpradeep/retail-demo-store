@@ -293,7 +293,7 @@ router.beforeResolve(async (to, from, next) => {
 
     if (!user) {
       AmplifyStore.dispatch('welcomePageVisited');
-      return next('/welcome');
+      return next('/auth');
     }
   }
 
