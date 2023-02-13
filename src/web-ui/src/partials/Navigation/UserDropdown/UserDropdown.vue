@@ -23,14 +23,14 @@
     </button>
 
     <div v-if="user" class="dropdown-menu px-3" aria-labelledby="navbarDropdown">
-      <a href="#" @click="switchShopper" class="dropdown-item">
+      <!--a href="#" @click="switchShopper" class="dropdown-item">
         <div class="dropdown-item-title">
           Switch shoppers
         </div>
         <div>Select another shopper with different shopping preferences</div>
-      </a>
+      </a-->
 
-      <div class="dropdown-divider"></div>
+      <!--div class="dropdown-divider"></div-->
 
       <router-link to="/orders" class="dropdown-item">
         <div class="dropdown-item-title">Orders</div>
