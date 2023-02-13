@@ -58,7 +58,7 @@ export default {
     },
     showTextAlerts: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     showFooter: {
       type: Boolean,
@@ -66,7 +66,7 @@ export default {
     },
     showDemoGuide: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     backgroundColor: {
       type: String,
