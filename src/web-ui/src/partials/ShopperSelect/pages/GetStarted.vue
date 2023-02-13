@@ -4,8 +4,8 @@
 
     <div class="explanation mb-5">
       <p>
-        The dataset used to power the Retail Demo Store has thousands of shoppers, each one with different age, gender,
-        shopping interests, and browsing history. This demo allows you to select shoppers from this dataset.
+        The dataset for this instance has thousands of shoppers, each one with different age, gender,
+        shopping interests, and browsing history. This will allow you to select shoppers from this dataset.
       </p>
 
       <p>Select a fictitious shopper by using one of the options below.</p>
@@ -18,7 +18,7 @@
         @click="autoSelectShopper"
         data-toggle="tooltip"
         data-placement="bottom"
-        title="Randomly select a shopper from the current Retail Demo Store users dataset"
+        title="Randomly select a shopper from the current users dataset"
         ref="autoSelectShopper"
       >
         Auto select shopper
@@ -29,7 +29,7 @@
         @click="chooseAShopper"
         data-toggle="tooltip"
         data-placement="bottom"
-        title="Select a shopper from the current Retail Demo Store users dataset based on demographics and shopping preferences"
+        title="Select a shopper from the current users dataset based on demographics and shopping preferences"
         ref="chooseAShopper"
       >
         Choose a shopper
