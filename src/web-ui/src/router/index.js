@@ -143,7 +143,7 @@ AmplifyEventBus.$on('authState', async (state) => {
     if (newSignUp && !hasAssignedShopperProfile) {
       AmplifyStore.dispatch('firstTimeSignInDetected');
 
-      router.push({path: '/shopper-select'});
+      router.push({path: '/'});
     } else {
       router.push({path: '/'});
     }
