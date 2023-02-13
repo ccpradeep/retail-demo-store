@@ -1,14 +1,13 @@
 <template>
   <DemoWalkthroughPageLayout class="page-container text-center" :showNav="false">
-    <h1 class="heading mb-4">Welcome to the Retail Demo Store tour!</h1>
+    <h1 class="heading mb-4">Welcome to Sony's Loyalty Portal!</h1>
     <p class="text mb-5">
-      Take our guided tour to get familiar with the demo. We'll show you the tasks and elements we recommend to use to
-      see the power of user personalization.
+      This popup will appear on first-time login only. To display a welcome message here and provide help links and customer care numbers..
     </p>
-    <div class="d-flex flex-column flex-sm-row-reverse justify-content-center">
+    <!--div class="d-flex flex-column flex-sm-row-reverse justify-content-center">
       <button class="take-tour btn btn-primary mb-3 mb-sm-0" @click="nextTourPage">Take Tour</button>
       <button class="skip btn btn-outline-primary mr-sm-3" @click="endTour">Skip</button>
-    </div>
+    </div-->
   </DemoWalkthroughPageLayout>
 </template>
 
